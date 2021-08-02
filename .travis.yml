@@ -7,3 +7,9 @@ node_js:
 branches:
   only:
     - main
+
+deploy:
+  provider: heroku
+  app: testtravis02
+  api_key:
+    secure: e9349215-eff8-4792-b879-a08e8906aadd
